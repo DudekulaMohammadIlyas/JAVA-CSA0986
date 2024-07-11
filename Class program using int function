@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class A{
+    int sub(int p, int q){
+        int r = p-q;
+        return r;
+    }
+}
+class B extends A{
+    int bf = 100;
+}
+public class Main {
+        public static void main (String[]args){
+         B b = new B();
+         Scanner sc = new Scanner(System.in);
+            System.out.println("Enter the first number: ");
+         int x = sc.nextInt();
+            System.out.println("Enter the second number: ");
+         int y = sc.nextInt();
+            System.out.println("Difference: "+b.sub(x,y));
+    }
+}

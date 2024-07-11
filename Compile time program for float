@@ -1,0 +1,6 @@
+public class float {    
+    public static void main(String args[]){       
+        float f = 2.5; 
+        System.out.println("Float value : "+f);  
+      }  
+}
